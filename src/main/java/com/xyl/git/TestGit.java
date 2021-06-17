@@ -1,6 +1,7 @@
 package com.xyl.git;
 
 import java.time.ZonedDateTime;
+import java.util.Date;
 import java.util.UUID;
 
 public class TestGit {
@@ -13,5 +14,9 @@ public class TestGit {
 
 
         System.out.println("hello git3,"+Runtime.getRuntime().availableProcessors());
+
+        System.out.println("hello git4"+new Date());
+
+        System.out.println("push commit");
     }
 }
